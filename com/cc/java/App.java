@@ -14,28 +14,14 @@ public class App {
 
     }
 
-    // ---- 2. Iteration Overloading -----//
-
-    private static void pollObj(Queen obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("-----------------");
-    }
-
-    private static void pollObj(Worker obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("-----------------");
-    }
-
-    private static void pollObj(Drone obj){
+    // ---- 3. Iteration Polymorphie -----//
+    private static void pollObj(HoneyBee obj){
         output(obj.doYourJob());
         output(obj.fly());
         output("-----------------");
     }
 
 
-   
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
