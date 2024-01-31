@@ -8,6 +8,8 @@ public class App {
        Worker worker = new Worker();
        Drone drone = new Drone();
        
+      // ---- 1. Iteration Super-/Subklassen -----//
+
        output(queen.doYourJob());
        output(queen.fly());
        output("-----------------");
